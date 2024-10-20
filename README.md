@@ -47,7 +47,7 @@ _Some of the features incluides:_
 
 ## Backend
 
-Here is the repository to my backend in Spring Boot [Postik API](https://github.com/classTemporal/postik-api)
+Here is the repository to my backend on Spring Boot [Postik API](https://github.com/classTemporal/postik-api)
 
 ## Environment
 
