@@ -1,0 +1,79 @@
+.userpostscontainer {
+  display: grid;
+  place-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.userheader {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.createbutton {
+  background-color: white;
+  color: rgb(26, 26, 26);
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.1rem;
+  width: 100%;
+  margin: 0.8rem 0 1rem;
+}
+
+.createbutton:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: white;
+}
+
+.yourpostiks {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  position: relative;
+  max-width: 100vw;
+}
+
+.postlist {
+  display: grid;
+  place-items: center;
+  margin-left: -1rem;
+  margin-right: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  filter: drop-shadow(0 0 0.2rem #00000010);
+  width: 100%;
+}
+
+.listp {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  background: rgb(225, 251, 255);
+  margin: 1rem 0 1rem;
+  padding: 1rem 0.5rem 1rem 1.5rem;
+  border-radius: 2rem;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}

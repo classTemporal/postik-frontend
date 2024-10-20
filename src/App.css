@@ -1,0 +1,245 @@
+body {
+  background-color: #e9ecf8;
+}
+
+a {
+  text-decoration: none;
+  color: #e9ecf8;
+}
+
+.offcanvas {
+  width: 70% !important;
+}
+
+.offcanbutton {
+  height: 4.1rem;
+  width: 4.2rem;
+  position: absolute;
+  margin-left: 7.2rem;
+  padding-top: 0.6rem;
+  border-style: hidden;
+  border-radius: 2rem;
+  font-size: 1.7rem;
+}
+
+.offtitle {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.base {
+  position: relative;
+  max-width: 100vw;
+}
+
+.divnav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.postiklogo {
+  display: none;
+}
+
+.postiklogoresponsive {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-top: 0.9rem;
+  margin-right: 0.3rem;
+}
+
+.navbar_ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: 2.4rem;
+  border-radius: 2rem;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  width: 18rem;
+  height: 2.9rem;
+  filter: drop-shadow(0 0 0.3rem rgba(0, 0, 0, 0.1));
+}
+
+.linknavv {
+  color: rgba(255, 255, 255, 0.918);
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
+  text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.22);
+}
+
+.navbarlinks a.active {
+  color: rgb(0,0,0);
+  background: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 0.3rem rgba(0, 0, 0, 0.1));
+}
+
+.linknavv:hover {
+  color: azure;
+  background: rgba(238, 174, 202, 0.699);
+  filter: drop-shadow(0 0 0.3rem rgba(0, 0, 0, 0.1));
+}
+
+.linknavv:not(:first-child) {
+  margin-right: -0.8rem;
+}
+
+.linknavv:not(:last-child) {
+  margin-right: 0.3rem; /* Añade margen entre los botones, excepto el último */
+  margin-left: -0.8rem;
+}
+
+.desktopbuttons {
+  display: none;
+  color: rgba(255, 255, 255, 0.918);
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
+  text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.22);
+}
+
+.dbuttons {
+  display: flex;
+  position: absolute;
+  margin-left: 34rem;
+}
+
+.container-sm {
+  margin-top: 5rem;
+}
+
+.chatcontainer {
+  color: rgba(255, 255, 255, 0.918);
+  font-size: 1.3rem;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
+  padding: 1.10rem 1.45rem;
+  margin-right: 2.5rem;
+  margin-left: -6.6rem;
+}
+
+.listgroup {
+  width: fit-content;
+}
+
+.linkoffcanvas {
+  color: rgba(255, 255, 255, 0.918);
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.22);
+}
+
+.linkoffcanvas:active {
+  color:rgba(0, 0, 0, 0.329);
+  transition: background-color 0.3s ease;
+}
+
+@media screen and (min-width: 300px) {
+  .divnav {
+    margin-top: 3rem;
+  }
+
+  .navbar_ {
+    height: 4.1rem;
+  }
+
+  .linknavv {
+    font-size: 1.2rem;
+    padding: 1.15rem 1.45rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+
+  .offcan {
+    display: none;
+  }
+
+  .offcanbutton {
+    display: none;
+  }
+
+  .divnav {
+    margin-top: 0;
+  }
+
+  .postiklogoresponsive {
+    display: none;
+  }
+
+  .postiklogo {
+    display: flex;
+    position: absolute;
+    color: rgb(70, 70, 70);
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 2.2rem;
+    margin-top: 0.1rem;
+    margin-left: 1rem;
+    z-index: 1;
+  }
+
+  .navbar_ {
+    height: 5rem;
+    width: 100%;
+    border-radius: 0;
+    background: rgb(238, 174, 202);
+    background: linear-gradient(
+      90deg,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    );
+  }
+
+  .desktopbuttons {
+    display: flex;
+    font-size: 1.4rem;
+    margin-top: 1.3rem;
+    border-radius: 0;
+    padding: 0.8rem 1rem;
+  }
+
+  .linknavv {
+    font-size: 1.4rem;
+    margin-top: 1.3rem;
+    border-radius: 0;
+    padding: 0.8rem 1rem;
+  }
+
+  .chatcontainer {
+    font-size: 1.4rem;
+    margin-top: 1.3rem;
+    margin-right: 0;
+    margin-left: -1rem;
+    border-radius: 0;
+    padding: 0.8rem 1rem;
+  }
+
+  .linknavv:not(:last-child) {
+    margin-right: 0;
+  }
+}

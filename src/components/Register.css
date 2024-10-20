@@ -1,0 +1,26 @@
+.checkbox-terms {
+  font-size: 0.9rem;
+}
+
+.registerbutton {
+  background-color: white;
+  color: rgb(26, 26, 26);
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.1rem;
+  width: 90%;
+  margin: 0.8rem 0 1rem;
+}
+
+.registerbutton:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: white;
+}

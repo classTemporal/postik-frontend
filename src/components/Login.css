@@ -1,0 +1,98 @@
+#arrowback {
+  margin-top: 1.5rem;
+  margin-bottom: -1.5rem;
+  margin-left: -15rem;
+  font-size: 2rem;
+  color: rgb(26, 26, 26);
+}
+
+.loginform {
+  display: grid;
+  place-items: center;
+  background: rgb(225, 251, 255);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 2rem;
+  filter: drop-shadow(0 0 0.5rem #00000010);
+}
+
+.loginheader {
+  color: rgb(26, 26, 26);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  margin: 2rem 4rem 1rem;
+}
+
+.stylePostik {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.floform {
+  padding: 1rem 2rem 1rem;
+}
+
+.placeholder-color {
+  margin: 0 0 1rem;
+  background-color: #e9ecf8;
+  filter: drop-shadow(0 0 0.5rem #00000010);
+}
+
+textarea:focus,
+input[type="text"]:focus, input[type="password"]:focus {   
+  border-color: rgba(131,58,180,1);
+  border-width: 0.1rem;
+  box-shadow: 0 0 0.5rem rgba(253,29,29,1);
+  outline: 0 none;
+}
+
+input + label {
+  color: rgb(133, 133, 133);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.buttondiv {
+  display: grid;
+  place-items: center;
+}
+
+.loginbutton {
+  background-color: white;
+  color: rgb(26, 26, 26);
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.1rem;
+  width: 90%;
+  margin: 0 0 1rem;
+}
+
+.loginbutton:hover {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  color: white;
+}
+
+.registermessage {
+  color: rgb(26, 26, 26);
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  text-align: center;
+}
+
+a {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

@@ -1,0 +1,1 @@
+All people are free to send a pull request.
